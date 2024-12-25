@@ -11,5 +11,5 @@ router.get("/city", cityController.getAll);
 router.patch("/city/:id", cityController.update);
 
 router.post("/flights", fligthController.create);
-
+router.get("/flights", fligthController.getAll);
 module.exports = router;
