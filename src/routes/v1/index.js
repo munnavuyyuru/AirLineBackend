@@ -19,6 +19,7 @@ router.post(
   fligthController.create
 );
 router.get("/flights", fligthController.getAll);
+router.get("/flights/:id", fligthController.getFlight);
 
 router.post("/airports", airportContoller.create);
 module.exports = router;
